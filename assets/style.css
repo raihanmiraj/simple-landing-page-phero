@@ -6,6 +6,7 @@
     --primary-color: #B68C5A;
     --text-color: #FFFFFF;
     --mouse-color: #076aff;
+     --color-contact:#F3F3F3;
 }
 
 .btn-custom{
@@ -72,6 +73,17 @@ padding: 10px 5px;
     border: none!important;
     color: black!important;
     outline: none;
+  }
+  .contact-1{
+    background: var(--color-contact);
+    border: 1px solid white;
+  }
+  .contact-us>input, .contact-us>textarea{
+    background: var(--color-contact);
+    border: none;
+    outline: none;
+    padding: 18px ;
+    border-radius: 8px;
   }
  
  
